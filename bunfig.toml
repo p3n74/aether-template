@@ -1,0 +1,4 @@
+# Hoisted installs avoid Windows ENOENT/copyfile races in isolated `.bun` layouts
+# (see https://github.com/oven-sh/bun/issues/28133 and related install linker issues).
+[install]
+linker = "hoisted"

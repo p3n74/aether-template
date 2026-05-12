@@ -42,16 +42,38 @@
   },
   "dependencies": {
     "@template/env": "workspace:*",
-    "@prisma/client-runtime-utils": "^7.3.0",
-    "dotenv": "catalog:",
-    "zod": "catalog:"
+    "@prisma/client-runtime-utils": "^7.8.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.0",
+    "@biomejs/biome": "^2.4.15",
     "@template/config": "workspace:*",
-    "@types/bun": "catalog:",
-    "turbo": "^2.6.3",
-    "typescript": "catalog:"
+    "@types/bun": "^1.3.13",
+    "turbo": "^2.9.12",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "tar": "^7.5.15",
+    "@xmldom/xmldom": "^0.8.12",
+    "socket.io-parser": "^4.2.6",
+    "@hono/node-server": "^1.19.10",
+    "hono": "^4.12.18",
+    "undici": "^6.24.0",
+    "yaml": "^2.8.3",
+    "path-to-regexp": "^8.4.0",
+    "fast-uri": "^3.1.2",
+    "node-forge": "^1.3.4",
+    "lodash": "^4.17.23",
+    "defu": "^6.1.7",
+    "express-rate-limit": "^8.2.2",
+    "dompurify": "^3.3.2",
+    "effect": "^3.20.0",
+    "kysely": "^0.28.17",
+    "ip-address": "^10.1.1",
+    "brace-expansion": "^1.1.13",
+    "vite": "^6.4.2",
+    "postcss": "^8.5.14"
   },
   "packageManager": "bun@1.3.2"
 }
